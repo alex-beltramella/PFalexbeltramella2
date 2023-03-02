@@ -6,6 +6,7 @@
 
 body {
     width: 100vw;
+    background-image: url(../img/img-fondo-ingresar.jpg);
 }
 
 .img-logo-navbar {
