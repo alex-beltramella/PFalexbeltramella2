@@ -1,12 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
+}
+
+@media screen {
+    
 }
 
 body {
-    width: 100vw;
-    background-image: url(../img/img-fondo-ingresar.jpg);
+    width: 100%;
+    /*background-image: url(../img/img-fondo-ingresar.jpg);*/
 }
 
 .img-logo-navbar {
