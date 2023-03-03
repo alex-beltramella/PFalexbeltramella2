@@ -4,13 +4,22 @@
     box-sizing: border-box !important;
 }
 
-@media screen {
+@media screen and (max-widht: 480px) {
+    
     
 }
 
+.background-image-ingresar {
+    background-image: url(../img/img-fondo-ingresar.webp);
+    max-width: 100%;
+    height: auto;
+    background-position: top;
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+
 body {
     width: 100%;
-    /*background-image: url(../img/img-fondo-ingresar.jpg);*/
 }
 
 .img-logo-navbar {
