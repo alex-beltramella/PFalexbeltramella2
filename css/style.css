@@ -26,3 +26,12 @@ body {
     width: 90px;
 }
 
+/*FOOTER Y ANIMACION EN CONTACTOS*/
+.animacion_footer {
+    font-size: 40px;
+    transition: transform .2s;
+}
+.animacion_footer:hover {
+    transform: scale(1.5);
+}
+
