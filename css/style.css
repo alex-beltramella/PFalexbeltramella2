@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header nav {
+  background-color: #3362a3; }
+  header nav div a img {
+    width: 90px; }
+
+section div {
+  background-color: #3362a3; }
