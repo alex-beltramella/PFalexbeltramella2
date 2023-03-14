@@ -1,21 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif; }
+
 header nav {
   background-color: #3362a3; }
   header nav div a img {
     width: 90px; }
-
-section div {
-  background-color: #3362a3; }
-
-section div h2 {
-  color: black; }
-
-section div p {
-  color: black; }
 
 .background-image-ingresar {
   background-image: url(../img/img-fondo-ingresar.webp);
