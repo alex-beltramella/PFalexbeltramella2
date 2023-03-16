@@ -15,10 +15,20 @@ header nav {
   header nav .nav-link {
     transition: transform .2s; }
     header nav .nav-link:hover {
-      transform: scale(1.2);
+      transform: scale(1.1);
       box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
       border-radius: 10px;
       font-size: 10px; }
+  header nav .paginas-productos {
+    background-color: #3362a3; }
+  header nav .paginas-productos-item {
+    color: white; }
+    header nav .paginas-productos-item:hover {
+      background-color: #F0BF62;
+      border-radius: 5px; }
+    header nav .paginas-productos-item:active {
+      background-color: #F0BF62;
+      border-radius: 5px; }
 
 .animacion_footer {
   font-size: 2rem;
