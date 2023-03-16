@@ -10,8 +10,15 @@ body {
 
 header nav {
   background-color: #3362a3; }
-  header nav div a img {
+  header nav .img-logo-navbar {
     width: 90px; }
+  header nav .nav-link {
+    transition: transform .2s; }
+    header nav .nav-link:hover {
+      transform: scale(1.2);
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+      border-radius: 10px;
+      font-size: 10px; }
 
 .animacion_footer {
   font-size: 2rem;
@@ -33,4 +40,5 @@ header nav {
 
 .texto-destacados {
   background-color: #3362a3;
-  color: black; }
+  color: black;
+  top: 10px; }
