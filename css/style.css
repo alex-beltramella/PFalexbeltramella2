@@ -42,3 +42,10 @@ header nav {
   background-color: #3362a3;
   color: black;
   top: 10px; }
+
+.card {
+  background-color: #212529; }
+  .card h5 {
+    color: white; }
+  .card p {
+    color: white; }
