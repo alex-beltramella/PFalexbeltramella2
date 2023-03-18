@@ -5,3 +5,11 @@ $color-secundario-hover: #f0be62b7;
 
 //colores
 $color-texto: black;
+
+//MAPAS
+$colores-y-opasity :(
+    "principal": $color-principal,
+    "secundario": $color-secundario,
+    "text": black,
+    "opasity": 0.3,
+);
