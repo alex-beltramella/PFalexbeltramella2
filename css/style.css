@@ -40,11 +40,14 @@ header nav {
   transform: scale(1.5); }
 
 .section {
-  background-color: #3362a3; }
+  background-color: #181717;
+  border-radius: 3px; }
   .section h2 {
-    color: #000; }
+    color: white; }
   .section p {
-    color: #000; }
+    color: white; }
+  .section .btn:hover {
+    border-color: #F0BF62; }
 
 .background-image-ingresar {
   background-image: url(../img/img-fondo-ingresar.webp);
@@ -70,8 +73,10 @@ header nav {
   background: black; }
   .carousel-item .carousel-img {
     opacity: 0.2; }
-  .carousel-item .texto-carousel-inicio {
-    font-size: 150px; }
-  .carousel-item .parrafo-carousel-inicio {
-    font-size: 30px;
-    color: rgba(0, 0, 0, 0.836) !important; }
+  .carousel-item .carousel-caption {
+    margin-bottom: 20%; }
+    .carousel-item .carousel-caption .texto-carousel-inicio {
+      font-size: 120px; }
+    .carousel-item .carousel-caption .parrafo-carousel-inicio {
+      font-size: 30px;
+      color: rgba(0, 0, 0, 0.836) !important; }

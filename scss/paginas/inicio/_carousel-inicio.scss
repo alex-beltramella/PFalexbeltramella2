@@ -3,11 +3,14 @@
     .carousel-img{
         opacity: 0.2;
     }
-    .texto-carousel-inicio {
-        font-size: 150px;
-    }
-    .parrafo-carousel-inicio {
-        font-size: 30px;
-        color: rgba(0, 0, 0, 0.836) !important;
+    .carousel-caption{
+        margin-bottom: 20%;
+        .texto-carousel-inicio {
+            font-size: 120px;
+        }
+        .parrafo-carousel-inicio {
+            font-size: 30px;
+            color: rgba(0, 0, 0, 0.836) !important;
+        }
     }
 }
