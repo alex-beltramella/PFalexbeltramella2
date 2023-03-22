@@ -1,3 +1,5 @@
+@include header-media-query;
+
 header {
     @include header-principal;
 }
