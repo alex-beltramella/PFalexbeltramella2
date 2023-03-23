@@ -18,6 +18,7 @@
           "backface-visibility"
         ]
       }
-    ]
+    ],
+    "css-prefix-order": "off"
   }
 }
