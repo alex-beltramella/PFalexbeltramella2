@@ -23,7 +23,7 @@
             
             &:after {
                 content: "";
-                background-color: #ffe54c;
+                background-color: $color-secundario;
                 width: 100%;
                 z-index: -1;
                 position: absolute;
