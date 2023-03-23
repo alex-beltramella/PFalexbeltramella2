@@ -18,7 +18,7 @@ header nav {
       transform: scale(1.1);
       box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
       border-radius: 10px;
-      font-size: 10px;
+      font-size: 50px;
       background-color: #F0BF62;
       color: #3362a3 !important; }
   header nav .paginas-productos {
@@ -26,9 +26,6 @@ header nav {
   header nav .paginas-productos-item {
     color: white; }
     header nav .paginas-productos-item:hover {
-      background-color: #F0BF62;
-      border-radius: 5px; }
-    header nav .paginas-productos-item:active {
       background-color: #F0BF62;
       border-radius: 5px; }
 
@@ -74,7 +71,7 @@ header nav {
   .carousel-item .carousel-img {
     opacity: 0.2; }
   .carousel-item .carousel-caption {
-    margin-bottom: 20%; }
+    margin-bottom: 18%; }
     .carousel-item .carousel-caption .texto-carousel-inicio {
       font-size: 120px; }
     .carousel-item .carousel-caption .parrafo-carousel-inicio {
@@ -84,7 +81,7 @@ header nav {
 .card-destacados {
   margin: 20px;
   width: 300px;
-  height: 400px;
+  height: 500px;
   border-radius: 5px;
   background: var(--i);
   background-size: cover;
@@ -96,7 +93,7 @@ header nav {
   .card-destacados .content {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: #f0be6269;
     opacity: 0;
     transition: .5s; }
     .card-destacados .content .content h2, .card-destacados .content a {

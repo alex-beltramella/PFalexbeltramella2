@@ -1,17 +1,3 @@
-@mixin header-media-query {
-    @media only screen and (max-width: 480px) {
-        .nav-link {
-            &:hover {
-                box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-                border-radius: 10px;
-                font-size: 50px;
-                background-color: map-get($colores-y-opasity, "secundario");
-                color: $color-principal !important;
-            }
-    }
-}
-
-
 @mixin header-principal{
     nav{
         background-color: $color-principal;
@@ -38,11 +24,6 @@
                 background-color: $color-secundario;
                 border-radius: 5px;
             }
-            &:active {
-                background-color: $color-secundario;
-                border-radius: 5px;
-            }
         }
     }
-}
 }
