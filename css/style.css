@@ -204,6 +204,11 @@ header nav {
 .card:hover .content {
   opacity: 1; }
 
+.section-carrito .img-carrito-container {
+  width: 50%; }
+  .section-carrito .img-carrito-container .img-carrito {
+    width: 400px; }
+
 .section-carrito .p-carrito-container .parrafo-carrito {
   font-size: 50px; }
 

@@ -1,5 +1,10 @@
 .section-carrito {
-    
+    .img-carrito-container {
+        width: 50%;
+        .img-carrito {
+            width: 400px;
+        }
+    }
     .p-carrito-container {
         .parrafo-carrito{
             font-size: 50px;
