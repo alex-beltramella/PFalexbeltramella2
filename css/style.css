@@ -254,3 +254,21 @@ header nav {
   .section-carrito .p-carrito-container .boton-ver-productos:hover:after {
     top: 0px;
     left: 0px; }
+
+.card-inst {
+  border-radius: 15px 0px 15px 0px; }
+  .card-inst .card-nombres {
+    background-color: #F0BF62;
+    font-size: 30px;
+    color: black;
+    border-radius: 0px 0px 10px 10px; }
+  .card-inst .a-inst-percusion {
+    text-decoration: none;
+    color: black;
+    background-color: #F0BF62;
+    font-size: 20px;
+    border-radius: 5px; }
+  .card-inst img {
+    width: 415px;
+    height: 415px;
+    overflow: cover; }
