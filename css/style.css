@@ -268,7 +268,7 @@ header nav {
     background-color: #F0BF62;
     font-size: 20px;
     border-radius: 5px; }
-  .card-inst img {
-    width: 415px;
-    height: 415px;
+  .card-inst .img {
+    width: 400px;
+    height: 400px;
     overflow: cover; }
